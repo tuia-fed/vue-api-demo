@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
@@ -28,5 +24,19 @@
       color: #42b983;
     }
   }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+button {
+  outline: none;
+  padding: 12px 6px;
+  text-align: center;
 }
 </style>
