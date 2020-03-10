@@ -17,7 +17,7 @@ Toast.install = Vue => {
     document.body.appendChild(instance.$el)
 
     timer = setTimeout(() => {
-      document.body.removeChild(instance.$el)
+      if (instance.$el) document.body.removeChild(instance.$el)
       instance.$el = null
     }, time)
   }

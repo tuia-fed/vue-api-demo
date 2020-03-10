@@ -38,5 +38,6 @@ button {
   outline: none;
   padding: 12px 6px;
   text-align: center;
+  border: 1px solid #f4f4f4;
 }
 </style>

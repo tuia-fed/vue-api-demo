@@ -1,12 +1,12 @@
 <template>
-  <div class="toast show">{{msg}}</div>
+  <div class="counter">counter: {{count}}</div>
 </template>
 
 <script>
 export default {
-  name: 'toast',
+  name: 'counter',
 
-  props: ['msg']
+  props: ['count']
 }
 </script>
 

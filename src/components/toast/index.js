@@ -5,9 +5,15 @@ export default {
 
   props: ['msg'],
 
+  data () {
+    return {
+      pre: '有状态 '
+    }
+  },
+
   render (h) {
     return h('div', {
       class: 'toast show'
-    }, this.msg)
+    }, this.pre + this.msg)
   }
 }
